@@ -14,7 +14,6 @@ LiquidCrystal lcd(12, 11, 5, 4, 3, 2); // Initialize LCD pins
 
 WiFiClient espClient;
 PubSubClient client(espClient);
-
 #define relayPin 7       // Relay pin to control the load
 
 // Function to connect to Wi-Fi
